@@ -30,6 +30,7 @@ namespace JoystickID
             {
                 RunPostApp(1);
                 this.Close();
+                return;
             }
             RunPostApp(2);
 
